@@ -2,7 +2,12 @@
     box-sizing: border-box;
 }
 
-.mainLogo{
+.img{
     max-width: 100%;
     display: block;
+}
+
+.mainLogo{
+    max-height: 5rem;
+    max-width: 5rem;
 }
