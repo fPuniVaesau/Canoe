@@ -1,17 +1,8 @@
-
-
-img,
-svg,
-picture,
-video{
-    display: block;
-    width: 100%;
+*{
+    box-sizing: border-box;
 }
 
 .mainLogo{
-    height: 10em;
-    width: 10em;
-    /* object-fit: cover; */
-    /* border: 1px solid ; */
-    padding: 10px;
+    max-width: 100%;
+    display: block;
 }
