@@ -63,11 +63,18 @@ select{
     padding: 10px;
 }
 
-
+.navigation__logo__wrapper{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: .5rem;
+}
 
 .navigation__logo{
-    max-height: 2rem;
+    max-height: 1.5rem;
 }
+
+.list
 
 
 
