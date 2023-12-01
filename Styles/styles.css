@@ -54,6 +54,20 @@ select{
 /* ------------------end */
 
 /* Header Section */
+.navigation__menu{
+    border: 1px solid;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 6fr 1fr;
+    place-content: center;
+    padding: 10px;
+}
+
+
+
+.navigation__logo{
+    max-height: 2rem;
+}
 
 
 
