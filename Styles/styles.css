@@ -1,6 +1,6 @@
 :root{
-    /* --font-title: 
-    --font-body:
+    --font-title: 'Figtree', sans-serif;
+    --font-body: 'Sora', sans-serif;
 
     --color-dark: #334155;
     --color-light: #f1f5f9;
@@ -9,7 +9,7 @@
 
     --color-slate700: #374151;
     --color-stone500: #78716c;
-    --colot-stone800: #292524; */
+    --colot-stone800: #292524;
 
 }
 /* ------------------end */
