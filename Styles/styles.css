@@ -74,7 +74,19 @@ select{
     max-height: 1.5rem;
 }
 
-.list
+.navigation__list__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.navigation__list__wrapper li{
+    list-style: none;
+}
+
+
 
 
 
