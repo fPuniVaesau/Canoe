@@ -96,6 +96,34 @@ select{
     font-weight: 200;
 }
 
+.navigation__button__wrapper{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    border: 1px solid;
+    padding: 3px;
+}
+
+.navigation__button__wrapper button{
+    
+    width: 3.5rem;
+    border-radius: 10px;
+    font-size: .85rem;
+    transition: .3s ease-in;
+}
+
+.navigation__button__wrapper button:hover{
+    background-color: var(--color-alternate);
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 7rem;
+    color: #FFF;
+    outline: 3px double var(--color-stone500);
+    outline-offset: .5px;
+    
+}
+
+
 
 
 
@@ -119,7 +147,9 @@ select{
 }
 
 .button{
-
+    border: none;
+    background-color: transparent;
+    font-weight: 200;
 }
 
 /* => I am building mobile first so I am using min-width for media query breakpoints. The container classes within each media query breakpoint makes sure that it does not out grow the breakpoint size. */
