@@ -55,12 +55,13 @@ select{
 
 /* Header Section */
 .navigation__menu{
-    border: 1px solid;
+    /* border: 1px solid; */
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 6fr 1fr;
     place-content: center;
     padding: 10px;
+    min-height: 50px;
 }
 
 .navigation__logo__wrapper{
@@ -94,14 +95,20 @@ select{
     text-decoration: none;
     color: inherit;
     font-weight: 200;
+    transition: .3s ease-in-out;
+}
+
+.navigation__list__wrapper a:hover{
+    color: inherit;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-decoration: underline;
 }
 
 .navigation__button__wrapper{
     display: grid;
     place-content: center;
     text-align: center;
-    /* border: 1px solid; */
-    padding: 3px;
 }
 
 .navigation__button__wrapper button{
@@ -109,8 +116,8 @@ select{
     width: 3.5rem;
     border-radius: 10px;
     font-size: .85rem;
-    transition: .25s ease-in;
-    
+    transition: .25s ease-in-out;
+
 }
 
 .navigation__button__wrapper button:hover{
