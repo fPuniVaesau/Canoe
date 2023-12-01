@@ -88,6 +88,7 @@ select{
 
 .navigation__list__wrapper a{
     text-decoration: none;
+    color: inherit;
 }
 
 
