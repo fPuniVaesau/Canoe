@@ -12,9 +12,9 @@
     --colot-stone800: #292524; */
 
 }
+/* ------------------end */
 
-
-/* => ////////////// Reset for Customization ///////////////////*/
+/* Reset for Webpage */
 *,
 *::before,
 *::after {
@@ -51,7 +51,32 @@ button,
 select{
     font: inherit;
 }
-/*////////////// Reset for Customization ///////////////////*/
+/* ------------------end */
+
+/* Header Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* => /////////// Media Query Responsive Webpages //////////// */
 
@@ -71,6 +96,7 @@ select{
 
 /* => I am building mobile first so I am using min-width for media query breakpoints. The container classes within each media query breakpoint makes sure that it does not out grow the breakpoint size. */
 /* xs screens */
+
 @media(min-width: 475px) {
     .container{
         max-width: 475px;
