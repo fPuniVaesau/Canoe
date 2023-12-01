@@ -86,7 +86,9 @@ select{
     list-style: none;
 }
 
-
+.navigation__list__wrapper a{
+    text-decoration: none;
+}
 
 
 
