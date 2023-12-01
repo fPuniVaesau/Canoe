@@ -51,6 +51,10 @@ button,
 select{
     font: inherit;
 }
+
+html{
+    /* color-scheme: dark light; */
+}
 /* ------------------end */
 
 /* Header Section */
@@ -77,6 +81,7 @@ select{
 
 .navigation__logo{
     max-height: 1rem;
+    color: inherit;
 }
 
 .navigation__list__wrapper{
@@ -107,12 +112,12 @@ select{
 
 .navigation__button__wrapper{
     display: grid;
-    place-content: center;
     text-align: center;
+    place-content: end;
 }
 
 .navigation__button__wrapper button{
-    border: 1px dashed black;
+    border: 1px dashed #000;
     width: 3.5rem;
     border-radius: 10px;
     font-size: .85rem;
