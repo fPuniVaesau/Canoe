@@ -135,6 +135,16 @@ html{
 }
 
 /* Main Section */
+main{
+    border: 1px solid firebrick;
+}
+
+.Logo__title__wrapper{
+    border: 1px solid brown;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 3fr 1fr;
+}
 
 
 
