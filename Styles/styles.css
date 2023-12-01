@@ -102,23 +102,6 @@ select{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* => /////////// Media Query Responsive Webpages //////////// */
 
 /* Container Utility Class */
@@ -133,6 +116,10 @@ select{
 /* Section Utility Class */
 .sections{
     margin: 10px auto;
+}
+
+.button{
+
 }
 
 /* => I am building mobile first so I am using min-width for media query breakpoints. The container classes within each media query breakpoint makes sure that it does not out grow the breakpoint size. */
