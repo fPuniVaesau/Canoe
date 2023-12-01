@@ -67,11 +67,15 @@ select{
     display: flex;
     text-align: center;
     align-items: center;
-    gap: .5rem;
+    gap: .25rem;
+}
+
+.navigation__logo__wrapper p{
+    font-weight: 200;
 }
 
 .navigation__logo{
-    max-height: 1.5rem;
+    max-height: 1rem;
 }
 
 .navigation__list__wrapper{
@@ -89,6 +93,7 @@ select{
 .navigation__list__wrapper a{
     text-decoration: none;
     color: inherit;
+    font-weight: 200;
 }
 
 
