@@ -181,6 +181,15 @@ main{
         font-size: var(--fs-small);
     }
     
+    .navigation__button__wrapper button:hover{
+        background-color: var(--color-stone500);
+        letter-spacing: 1px;
+        font-weight: 300;
+        width: 3.5rem;
+        color: #FFF;
+        border: none;
+    }
+    
    
 }
 
