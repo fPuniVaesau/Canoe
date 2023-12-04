@@ -202,6 +202,16 @@ main{
     .navigation__list__wrapper{
         font-size: var(--fs-regular)
     }
+
+    .navigation__button__wrapper button{
+        width: 3.5rem;
+    }
+    
+    .navigation__button__wrapper button:hover{
+        letter-spacing: 3px;
+        width: 7rem;
+    }
+    
 }
 
 /* medium screens */
