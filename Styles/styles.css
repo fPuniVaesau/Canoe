@@ -11,6 +11,10 @@
     --color-stone500: #78716c;
     --colot-stone800: #292524;
 
+    --fs-small: .75rem;
+    --fs-regular: 1rem;
+    --fs-large: 3rem;
+
 }
 /* ------------------end */
 
@@ -173,6 +177,9 @@ main{
         max-width: 475px;
     }
 
+    .navigation__list__wrapper{
+        font-size: var(--fs-small);
+    }
     
    
 }
@@ -181,6 +188,10 @@ main{
 @media(min-width: 640px) {
     .container{
         max-width: 640px;
+    }
+
+    .navigation__list__wrapper{
+        font-size: var(--fs-regular)
     }
 }
 
