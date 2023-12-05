@@ -34,7 +34,7 @@ let currentDate = () => {
     let formattedMonth = monthsOfTheYear[myDate.getMonth()];
 
     let todaysDate = document.querySelector(".currentDate");
-    todaysDate.innerText = `${formattedDay.toUpperCase()}, ${formattedMonth.toUpperCase()} ${date.toString().padStart(2, "0")} ${year}`;
+    todaysDate.innerText = `${formattedDay}, ${formattedMonth} ${date.toString().padStart(2, "0")} ${year}`;
 }
 
 setInterval(currentTime, 100);
