@@ -143,6 +143,9 @@ main{
     border: 1px solid firebrick;
 }
 
+.digitalClock{
+    font-size: var(--fs-small);
+}
 
 
 /* ------------------end */
