@@ -151,6 +151,10 @@ main{
     font-size: var(--fs-small);
 }
 
+.currentDay{
+    color: var(--color-alternate)
+}
+
 .fullDate__wrapper{
     display: flex;
     gap: .25rem;
