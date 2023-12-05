@@ -14,7 +14,9 @@
     --fs-small: .75rem;
     --fs-regular: 1rem;
     --fs-large: 3rem;
-
+    --fs-xlarge: 5rem;
+    --fs-xxlarge:7rem;
+    --fs-xxxlarge:10rem;
 }
 /* ------------------end */
 
@@ -140,7 +142,7 @@ html{
 
 /* Main Section */
 main{
-    border: 1px solid firebrick;
+    /* border: 1px solid firebrick; */
 }
 
 .dateTime__wrapper{
@@ -176,12 +178,18 @@ main{
 .title__wrapper__mainAndSub{
     border: 1px solid green;
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+.Title{
+    font-size: var(--fs-xxlarge);
+}
 
+.subTitle{
+    text-align: center;
+}
 
 
 
