@@ -147,6 +147,12 @@ main{
     font-size: var(--fs-small);
 }
 
+.fullDate__wrapper{
+    display: flex;
+    gap: .25rem;
+    align-items: center;
+    /* border: 1px solid #000; */
+}
 
 /* ------------------end */
 

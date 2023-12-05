@@ -27,7 +27,6 @@ let currentDate = () => {
         "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
     ];
 
-    let formattedDay = daysOfTheWeek[myDate.getDay()];
     let formattedMonth = monthsOfTheYear[myDate.getMonth()];
 
     let todaysDate = document.querySelector(".currentDate");
