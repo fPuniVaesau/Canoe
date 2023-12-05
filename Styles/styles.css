@@ -144,7 +144,7 @@ main{
 }
 
 .dateTime__wrapper{
-    /* border: 1px solid var(--color-stone500); */
+    border: 1px solid var(--color-stone500);
 }
 
 .digitalClock{
