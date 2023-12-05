@@ -164,33 +164,7 @@ main{
     /* border: 1px solid #000; */
 }
 
-.imageTitleAndSub__wrapper{
-    position: relative;
-}
-
-.title__wrapper{
-    display: grid;
-    grid-auto-flow: column;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr;
-}
-
-.title__wrapper__mainAndSub{
-    /* border: 1px solid green; */
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.Title{
-    font-size: var(--fs-xxlarge);
-}
-
-.subTitle{
-    text-align: center;
-    /* border: 1px solid yellow; */
-}
+/*  */
 
 
 
