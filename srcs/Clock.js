@@ -22,9 +22,6 @@ let currentDate = () => {
     let month = myDate.getMonth();
     let year = myDate.getFullYear();
 
-    let daysOfTheWeek = [
-        "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
-    ];
 
     let monthsOfTheYear = [
         "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
@@ -34,9 +31,26 @@ let currentDate = () => {
     let formattedMonth = monthsOfTheYear[myDate.getMonth()];
 
     let todaysDate = document.querySelector(".currentDate");
-    todaysDate.innerText = `${formattedDay}, ${formattedMonth} ${date.toString().padStart(2, "0")} ${year}`;
+    todaysDate.innerText = `${formattedMonth} ${date.toString().padStart(2, "0")} ${year}`;
 }
 
+let currentDay = () => {
+
+    let myDate = new Date();
+
+    let daysOfTheWeek = [
+        "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+    ];
+
+    let formattedDay = daysOfTheWeek[myDate.getDay()];
+
+    let day = document.querySelector(".currentDay");
+    day.innerText = `${formattedDay}`;
+
+}
+
+
 setInterval(currentTime, 100);
+setInterval(currentDay, 1000);
 setInterval(currentDate, 1000);
 
