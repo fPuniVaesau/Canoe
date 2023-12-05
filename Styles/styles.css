@@ -143,6 +143,10 @@ main{
     border: 1px solid firebrick;
 }
 
+.dateTime__wrapper{
+    /* border: 1px solid var(--color-stone500); */
+}
+
 .digitalClock{
     font-size: var(--fs-small);
 }
@@ -153,6 +157,8 @@ main{
     align-items: center;
     /* border: 1px solid #000; */
 }
+
+
 
 /* ------------------end */
 
