@@ -192,9 +192,25 @@ main{
     top:80%;
     margin-left: 30px;
 }
-
-
 /* ------------------end */
+
+/* Story section Content */
+
+.StorySection__warpper{
+    /* border: 1px solid navy; */
+}
+
+.Author{
+    font-family: var(--font-title);
+    font-size: var(--fs-large);
+    font-weight: 400;
+
+    /* border: 1px solid orangered; */
+}
+
+.role{
+    font-family: var(--font-title);
+}
 
 /* => /////////// Media Query Responsive Webpages //////////// */
 
