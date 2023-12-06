@@ -17,6 +17,7 @@
     --fs-xlarge: 5rem;
     --fs-xxlarge:7rem;
     --fs-xxxlarge:10rem;
+    --fs-xxxxl:15rem:
 }
 /* ------------------end */
 
@@ -176,7 +177,21 @@ main{
     background-size: cover;
 }
 
+.title__wrapper__mainAndSub{
+    position: relative;
+}
 
+.Title{
+    font-size: var(--fs-xxxlarge);
+    font-weight: 700;
+    /* border: 1px solid #FFF; */
+}
+
+.subTitle{
+    position: absolute;
+    top:80%;
+    margin-left: 30px;
+}
 
 
 /* ------------------end */
@@ -226,6 +241,12 @@ main{
         width: 3.5rem;
         border: none;
     }
+
+    .Title{
+        font-size: var(--fs-xxlarge);
+        font-weight: 700;
+    }
+    
     
    
 }
@@ -248,6 +269,13 @@ main{
         letter-spacing: 3px;
         width: 3.5rem;
     }
+
+    .Title{
+        font-size: var(--fs-xxxlarge);
+        font-weight: 700;
+        /* border: 1px solid #FFF; */
+    }
+    
 
 }
 
