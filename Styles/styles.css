@@ -164,7 +164,17 @@ main{
     /* border: 1px solid #000; */
 }
 
-/*  */
+/* Title content */
+
+.TitleAndIntro__wrapper{
+    display: grid;
+    place-content: center;
+    background-image: url("/Styles/imgs/dave-hoefler-qxnGyJFtCMs-unsplash.jpg");
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 
 
