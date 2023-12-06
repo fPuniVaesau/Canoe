@@ -5,7 +5,7 @@
     --color-dark: #334155;
     --color-light: #f1f5f9;
     --color-accent: #fd7120ea;
-    --color-alternate: #92b1d2;
+    --color-alternate: #7692b0;
 
     --color-slate700: #374151;
     --color-stone500: #78716c;
@@ -39,7 +39,7 @@ html{
 }
 
 body{
-    min-height: 100vh;
+    min-height: 100svh;
     font-family: var(--font-body);
 }
 
@@ -132,13 +132,14 @@ html{
 }
 
 .navigation__button__wrapper button:hover{
-    background-color: var(--color-stone500);
+    /* background-color: var(--color-stone500); */
     letter-spacing: 1px;
     font-weight: 300;
     width: 7rem;
     color: #FFF;
     border: none;
 }
+
 
 /* Main Section */
 main{
@@ -240,6 +241,11 @@ main{
         width: 3.5rem;
         border: none;
     }
+
+    .navigation__button__wrapper button:active{
+        background-color: var(--color-alternate);
+    }
+
 
     .Title{
         font-size: var(--fs-xxlarge);
