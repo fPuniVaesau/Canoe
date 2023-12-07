@@ -5,7 +5,7 @@
     --color-dark: #334155;
     --color-light: #f1f5f9;
     --color-accent: #fd7120ea;
-    --color-alternate: #7692b0;
+    --color-alternate: #496c92;
 
     --color-slate700: #374151;
     --color-stone500: #78716c;
@@ -60,9 +60,10 @@ select{
     font: inherit;
 }
 
-html{
-    /* color-scheme: dark light; */
-}
+/* html{
+    color-scheme: dark light;
+    background-color: var(--color-stone500);
+} */
 /* ------------------end */
 
 /* Header Section */
@@ -201,7 +202,6 @@ html{
 .whoAmI__section__wrapper p{
     margin-top: .85rem;
     line-height: 1.5;
-    
 }
 
 .Author{
@@ -226,6 +226,7 @@ html{
     /* border: 1px solid firebrick; */
     margin-top: 1.5rem;
     text-align: center;
+    color: var(--color-alternate);
 }
 
 .threeD__img__wrapper img{
