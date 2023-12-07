@@ -14,6 +14,7 @@
     --fs-small: .75rem;
     --fs-regular: 1rem;
     --fs-medium: 1.75rem;
+    --fs-mediumPlus: 2.25rem;
     --fs-large: 3rem;
     --fs-xlarge: 5rem;
     --fs-xxlarge:7rem;
@@ -206,7 +207,7 @@ select{
 
 .Author{
     font-family: var(--font-title);
-    font-size: var(--fs-large);
+    font-size: var(--fs-medium);
     font-weight: 400;
 
     /* border: 1px solid orangered; */
@@ -217,7 +218,7 @@ select{
 }
 
 .QTitle{
-    font-size: var(--fs-medium);
+    font-size: var(--fs-large);
 }
 
 .quote{
@@ -380,7 +381,7 @@ select{
     }
 
     .quote{
-        font-size: var(--fs-large);
+        font-size: var(--fs-mediumPlus);
     }
 }
 
