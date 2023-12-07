@@ -197,8 +197,8 @@ main{
 
 /* Story section Content */
 
-.StorySection__warpper{
-    /* border: 1px solid navy; */
+.StorySection__mainContent__wrapper{
+    border: 1px solid navy;
 }
 
 .Author{
@@ -215,6 +215,17 @@ main{
 
 .QTitle{
     font-size: var(--fs-medium);
+}
+
+.quote{
+    font-size: var(--fs-medium);
+}
+
+hr{
+    width: 80%;
+}
+.threeD__img__wrapper img{
+    max-height: 750px;
 }
 
 /* => /////////// Media Query Responsive Webpages //////////// */
