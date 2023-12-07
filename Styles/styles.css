@@ -212,11 +212,6 @@ html{
     /* border: 1px solid orangered; */
 }
 
-.whoAmI__section__wrapper{
-    /* border: 1px solid ; */
-    
-}
-
 .role{
     font-family: var(--font-title);
 }
@@ -232,11 +227,6 @@ html{
     margin-top: 1.5rem;
     text-align: center;
 }
-
-hr{
-    width: 80%;
-}
-
 
 .threeD__img__wrapper img{
     max-height: 500px;
