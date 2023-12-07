@@ -231,8 +231,6 @@ html{
     /* border: 1px solid firebrick; */
     margin-top: 1.5rem;
     text-align: center;
-    
-    
 }
 
 hr{
@@ -295,10 +293,19 @@ hr{
         background-color: var(--color-alternate);
     }
 
+    .StorySection__mainContent__wrapper{
+        /* border: 1px solid navy; */
+        display: flex;
+        flex-direction: column;
+    }
 
     .Title{
         font-size: var(--fs-xxlarge);
         font-weight: 700;
+    }
+
+    .quote{
+        font-size: var(--fs-medium);
     }
     
     
@@ -329,6 +336,7 @@ hr{
         font-weight: 700;
         /* border: 1px solid #FFF; */
     }
+
     
 
 }
@@ -346,6 +354,14 @@ hr{
     .navigation__button__wrapper button:hover{
         letter-spacing: 3px;
         width: 5rem;
+    }
+
+    .StorySection__mainContent__wrapper{
+        /* border: 1px solid navy; */
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 1fr;
+        
     }
 
 }
@@ -370,6 +386,10 @@ hr{
 @media(min-width: 1280px) {
     .container{
         max-width: 1280px;
+    }
+
+    .quote{
+        font-size: var(--fs-large);
     }
 }
 
