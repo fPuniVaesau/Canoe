@@ -13,7 +13,7 @@
 
     --fs-small: .75rem;
     --fs-regular: 1rem;
-    --fs-medium: 1.5rem;
+    --fs-medium: 1.75rem;
     --fs-large: 3rem;
     --fs-xlarge: 5rem;
     --fs-xxlarge:7rem;
@@ -191,10 +191,17 @@ html{
 /* Story section Content */
 
 .StorySection__mainContent__wrapper{
-    border: 1px solid navy;
+    /* border: 1px solid navy; */
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1fr;
+    
+}
+
+.whoAmI__section__wrapper p{
+    margin-top: 1rem;
+    line-height: 1.5;
+    
 }
 
 .Author{
@@ -203,6 +210,11 @@ html{
     font-weight: 400;
 
     /* border: 1px solid orangered; */
+}
+
+.whoAmI__section__wrapper{
+    /* border: 1px solid ; */
+    
 }
 
 .role{
@@ -214,14 +226,23 @@ html{
 }
 
 .quote{
-    font-size: var(--fs-medium);
+    display: block;
+    font-size: var(--fs-large);
+    /* border: 1px solid firebrick; */
+    margin-top: 1.5rem;
+    text-align: center;
+    
+    
 }
 
 hr{
     width: 80%;
 }
+
+
 .threeD__img__wrapper img{
-    max-height: 750px;
+    max-height: 500px;
+    margin: 0 auto;
 }
 
 /* => /////////// Media Query Responsive Webpages //////////// */
