@@ -202,6 +202,19 @@ select{
         max-width: 640px;
     }
 
+    .navigation__list__wrapper{
+        font-size: var(--fs-regular)
+    }
+
+    .navigation__button__wrapper button{
+        width: 3.5rem;
+    }
+    
+    .navigation__button__wrapper button:hover{
+        letter-spacing: 3px;
+        width: 3.5rem;
+    }
+
 }
 
 /* medium screens */
@@ -210,6 +223,22 @@ select{
         max-width: 768px;
     }
 
+    .navigation__button__wrapper button{
+        width: 3.5rem;
+    }
+    
+    .navigation__button__wrapper button:hover{
+        letter-spacing: 3px;
+        width: 5rem;
+    }
+
+    .StorySection__mainContent__wrapper{
+        /* border: 1px solid navy; */
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 1fr;
+        
+    }
     
 
 }
@@ -220,6 +249,14 @@ select{
         max-width: 1024px;
     }
     
+    .navigation__button__wrapper button{
+        width: 3.5rem;
+    }
+    
+    .navigation__button__wrapper button:hover{
+        letter-spacing: 3px;
+        width: 7rem;
+    }
   
 }
 
