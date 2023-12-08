@@ -235,6 +235,15 @@ select{
     margin: 0 auto;
 }
 
+/* Section 2 */
+
+.two{
+    text-align: end;
+    /* border: 1px solid; */
+}
+
+
+
 /* => /////////// Media Query Responsive Webpages //////////// */
 
 /* Container Utility Class */
