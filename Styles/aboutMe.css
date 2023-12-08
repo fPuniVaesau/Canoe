@@ -143,6 +143,22 @@ select{
     border: none;
 }
 
+.returnHome a{
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    transition: .3s ease-in-out;
+}
+
+.returnHome a:hover{
+    color: var(--color-accent);
+    font-weight: 300;
+}
+
+.returnHome a:active{
+    color: var(--color-alternate);
+}
+
 
 
 /* Utility classes */
