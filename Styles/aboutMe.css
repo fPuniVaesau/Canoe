@@ -1,0 +1,141 @@
+:root{
+    --font-title: 'Figtree', sans-serif;
+    --font-body: 'Sora', sans-serif;
+
+    --color-dark: #334155;
+    --color-light: #f1f5f9;
+    --color-accent: #fd7120ea;
+    --color-alternate: #4c526f;
+
+    --color-slate700: #374151;
+    --color-stone500: #78716c;
+    --colot-stone800: #292524;
+
+    --fs-small: .75rem;
+    --fs-regular: 1rem;
+    --fs-medium: 1.75rem;
+    --fs-mediumPlus: 2.25rem;
+    --fs-large: 3rem;
+    --fs-xlarge: 5rem;
+    --fs-xxlarge:7rem;
+    --fs-xxxlarge:10rem;
+    --fs-xxxxl:15rem:
+}
+/* ------------------end */
+
+/* Reset for Webpage */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    line-height: calc(1em + 0.5em);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100svh;
+    font-family: var(--font-body);
+}
+
+img,
+picture,
+svg,
+video{
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+input,
+textarea,
+button,
+select{
+    font: inherit;
+}
+
+
+
+
+
+
+
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* Section Utility Class */
+.sections{
+    margin: 10px auto;
+}
+
+.button{
+    border: none;
+    background-color: transparent;
+    font-weight: 200;
+}
+
+/* => I am building mobile first so I am using min-width for media query breakpoints. The container classes within each media query breakpoint makes sure that it does not out grow the breakpoint size. */
+/* xs screens */
+
+@media(min-width: 475px) {
+    .container{
+        max-width: 475px;
+    }
+   
+}
+
+/* small screens */
+@media(min-width: 640px) {
+    .container{
+        max-width: 640px;
+    }
+
+}
+
+/* medium screens */
+@media(min-width:768px) {
+    .container{
+        max-width: 768px;
+    }
+
+    
+
+}
+
+/* large screens */
+@media(min-width: 1024px) {
+    .container{
+        max-width: 1024px;
+    }
+    
+  
+}
+
+/* extra large screens */
+@media(min-width: 1280px) {
+    .container{
+        max-width: 1280px;
+    }
+
+   
+}
+
+/* 2XL screens */
+@media(min-width: 1536px) {
+    .container{
+        max-width: 1536px;
+    }
+}
