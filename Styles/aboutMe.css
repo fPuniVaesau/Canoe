@@ -66,11 +66,86 @@ select{
     font-size: var(--fs-xxlarge);
 }
 
+/* Header Section */
+
+.navigation__menu{
+    /* border: 1px solid; */
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 6fr 1fr;
+    place-content: center;
+    padding: 10px;
+    min-height: 50px;
+}
+
+.navigation__logo__wrapper{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: .25rem;
+}
+
+.navigation__logo__wrapper p{
+    font-weight: 200;
+}
+
+.navigation__logo{
+    max-height: 1rem;
+    color: inherit;
+}
+
+.navigation__list__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .85rem;
+    text-align: center;
+}
+
+.navigation__list__wrapper li{
+    list-style: none;
+}
+
+.navigation__list__wrapper a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 200;
+    transition: .3s ease-in-out;
+}
+
+.navigation__list__wrapper a:hover{
+    color: inherit;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.navigation__button__wrapper{
+    display: grid;
+    text-align: center;
+    place-content: end;
+}
+
+.navigation__button__wrapper button{
+    border: 1px dashed #000;
+    width: 3.5rem;
+    border-radius: 10px;
+    font-size: .85rem;
+    transition: .25s ease-in-out;
+
+}
+
+.navigation__button__wrapper button:hover{
+    background-color: var(--color-stone500);
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 7rem;
+    color: #FFF;
+    border: none;
+}
 
 
 
-
-
+/* Utility classes */
 
 .container{
     width: 100%;
@@ -97,6 +172,26 @@ select{
 @media(min-width: 475px) {
     .container{
         max-width: 475px;
+    }
+
+    .navigation__list__wrapper{
+        font-size: var(--fs-small);
+    }
+
+    .navigation__button__wrapper button{
+        font-size: var(--fs-small);
+    }
+    
+    .navigation__button__wrapper button:hover{
+        background-color: var(--color-stone500);
+        letter-spacing: 1px;
+        font-weight: 300;
+        width: 3.5rem;
+        border: none;
+    }
+
+    .navigation__button__wrapper button:active{
+        background-color: var(--color-alternate);
     }
    
 }
