@@ -1,0 +1,293 @@
+:root{
+    --font-title: 'Figtree', sans-serif;
+    --font-body: 'Sora', sans-serif;
+
+    --color-dark: #334155;
+    --color-light: #f1f5f9;
+    --color-accent: #fd7120ea;
+    --color-alternate: #4c526f;
+
+    --color-slate700: #374151;
+    --color-stone500: #78716c;
+    --colot-stone800: #292524;
+
+    --fs-small: .75rem;
+    --fs-regular: 1rem;
+    --fs-medium: 1.75rem;
+    --fs-mediumPlus: 2.25rem;
+    --fs-large: 3rem;
+    --fs-xlarge: 5rem;
+    --fs-xxlarge:7rem;
+    --fs-xxxlarge:10rem;
+    --fs-xxxxl:15rem:
+}
+/* ------------------end */
+
+/* Reset for Webpage */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    line-height: calc(1em + 0.5em);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100svh;
+    font-family: var(--font-body);
+}
+
+img,
+picture,
+svg,
+video{
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+input,
+textarea,
+button,
+select{
+    font: inherit;
+}
+
+.mainTitle{
+    font-family: var(--font-title);
+    font-size: var(--fs-xxlarge);
+}
+
+/* Header Section */
+
+.navigation__menu{
+    /* border: 1px solid; */
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 6fr 1fr;
+    place-content: center;
+    padding: 10px;
+    min-height: 50px;
+}
+
+.navigation__logo__wrapper{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: .25rem;
+}
+
+.navigation__logo__wrapper p{
+    font-weight: 200;
+}
+
+.navigation__logo{
+    max-height: 1rem;
+    color: inherit;
+}
+
+.navigation__list__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .85rem;
+    text-align: center;
+}
+
+.navigation__list__wrapper li{
+    list-style: none;
+}
+
+.navigation__list__wrapper a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 200;
+    transition: .3s ease-in-out;
+}
+
+.navigation__list__wrapper a:hover{
+    color: inherit;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.navigation__button__wrapper{
+    display: grid;
+    text-align: center;
+    place-content: end;
+}
+
+.navigation__button__wrapper button{
+    border: 1px dashed #000;
+    width: 3.5rem;
+    border-radius: 10px;
+    font-size: .85rem;
+    transition: .25s ease-in-out;
+
+}
+
+.navigation__button__wrapper button:hover{
+    background-color: var(--color-stone500);
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 7rem;
+    color: #FFF;
+    border: none;
+}
+
+.returnHome a{
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    transition: .3s ease-in-out;
+}
+
+.returnHome a:hover{
+    color: var(--color-accent);
+    font-weight: 300;
+}
+
+.returnHome a:active{
+    color: var(--color-alternate);
+}
+
+
+
+/* Utility classes */
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* Section Utility Class */
+.sections{
+    margin: 10px auto;
+}
+
+.button{
+    border: none;
+    background-color: transparent;
+    font-weight: 200;
+}
+
+/* => I am building mobile first so I am using min-width for media query breakpoints. The container classes within each media query breakpoint makes sure that it does not out grow the breakpoint size. */
+/* xs screens */
+
+@media(min-width: 475px) {
+    .container{
+        max-width: 475px;
+    }
+
+    .navigation__list__wrapper{
+        font-size: var(--fs-small);
+    }
+
+    .navigation__button__wrapper button{
+        font-size: var(--fs-small);
+    }
+    
+    .navigation__button__wrapper button:hover{
+        background-color: var(--color-stone500);
+        letter-spacing: 1px;
+        font-weight: 300;
+        width: 3.5rem;
+        border: none;
+    }
+
+    .navigation__button__wrapper button:active{
+        background-color: var(--color-alternate);
+    }
+   
+}
+
+/* small screens */
+@media(min-width: 640px) {
+    .container{
+        max-width: 640px;
+    }
+
+    .navigation__list__wrapper{
+        font-size: var(--fs-regular)
+    }
+
+    .navigation__button__wrapper button{
+        width: 3.5rem;
+    }
+    
+    .navigation__button__wrapper button:hover{
+        letter-spacing: 3px;
+        width: 3.5rem;
+    }
+
+}
+
+/* medium screens */
+@media(min-width:768px) {
+    .container{
+        max-width: 768px;
+    }
+
+    .navigation__button__wrapper button{
+        width: 3.5rem;
+    }
+    
+    .navigation__button__wrapper button:hover{
+        letter-spacing: 3px;
+        width: 5rem;
+    }
+
+    .StorySection__mainContent__wrapper{
+        /* border: 1px solid navy; */
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    
+
+}
+
+/* large screens */
+@media(min-width: 1024px) {
+    .container{
+        max-width: 1024px;
+    }
+    
+    .navigation__button__wrapper button{
+        width: 3.5rem;
+    }
+    
+    .navigation__button__wrapper button:hover{
+        letter-spacing: 3px;
+        width: 7rem;
+    }
+  
+}
+
+/* extra large screens */
+@media(min-width: 1280px) {
+    .container{
+        max-width: 1280px;
+    }
+
+   
+}
+
+/* 2XL screens */
+@media(min-width: 1536px) {
+    .container{
+        max-width: 1536px;
+    }
+}
