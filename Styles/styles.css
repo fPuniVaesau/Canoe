@@ -181,6 +181,10 @@ select{
     font-size: var(--fs-xxxlarge);
     font-weight: 700;
     /* border: 1px solid #FFF; */
+    
+    background: linear-gradient(to right, #fff 0%, #000 100%);
+    background-clip: text;
+    color: transparent; 
 }
 
 .subTitle{
