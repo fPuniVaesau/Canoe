@@ -182,9 +182,9 @@ select{
     font-weight: 700;
     /* border: 1px solid #FFF; */
 
-    background: linear-gradient(to right, #D6BCB1 0%, #3D2216 50%, #26140C 100%);
+    /* background: linear-gradient(to right, #D6BCB1 0%, #3D2216 50%, #26140C 100%);
     background-clip: text;
-    color: transparent; 
+    color: transparent;  */
 }
 
 .subTitle{
