@@ -50,6 +50,6 @@ let currentDay = () => {
 
 
 setInterval(currentTime, 100);
-setInterval(currentDay, 1000);
-setInterval(currentDate, 1000);
+setInterval(currentDay, 100000);
+setInterval(currentDate, 100000);
 
