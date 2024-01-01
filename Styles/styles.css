@@ -242,6 +242,7 @@ select{
 /* Wins and losses section */
 
 .winsAndLosses{
+    border: 1px solid red;
     
 }
 
