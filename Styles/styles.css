@@ -221,10 +221,6 @@ select{
     font-family: var(--font-title);
 }
 
-.QTitle{
-    font-size: var(--fs-large);
-}
-
 .quote{
     display: block;
     font-size: var(--fs-large);
@@ -240,6 +236,9 @@ select{
 }
 
 /* Wins and losses section */
+.QTitle{
+    font-size: var(--fs-large);
+}
 
 .winsAndLosses{
     border: 1px solid rgb(0, 179, 255);
