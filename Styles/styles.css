@@ -244,11 +244,10 @@ select{
 .winsTitle{
     display: block;
     border: 1px solid navy;
-    /* float: right; */
 }
 
 .winsAndLosses{
-    border: 1px solid rgb(0, 179, 255);
+    /* border: 1px solid rgb(0, 179, 255); */
 
 }
 
