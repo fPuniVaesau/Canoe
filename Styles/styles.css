@@ -171,6 +171,7 @@ select{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 10px ;
 }
 
 .title__wrapper__mainAndSub{
@@ -180,8 +181,6 @@ select{
 .Title{
     font-size: var(--fs-xxxlarge);
     font-weight: 700;
-    /* border: 1px solid #FFF; */
-
     background: linear-gradient(to right, #fff3ee 0%, #b09589 50%, #ff4d00 100%);
     background-clip: text;
     color: transparent; 
