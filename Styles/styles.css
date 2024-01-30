@@ -197,7 +197,7 @@ select{
 /* Story section Content */
 
 .StorySection__mainContent__wrapper{
-    /* border: 1px solid navy; */
+    border: 1px solid navy;
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1fr;
@@ -237,6 +237,7 @@ select{
 .threeD__img__wrapper img{
     max-height: 500px;
     margin: 0 auto;
+    border: 1px solid;
 }
 
 /* Wins and losses section */
