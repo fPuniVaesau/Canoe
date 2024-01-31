@@ -214,7 +214,6 @@ select{
     font-family: var(--font-title);
     font-size: var(--fs-medium);
     font-weight: 400;
-
     /* border: 1px solid orangered; */
 }
 
