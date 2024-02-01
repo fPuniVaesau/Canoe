@@ -201,7 +201,6 @@ select{
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: 1fr 1fr;
-    
 }
 
 .whoAmI__section__wrapper p{
@@ -236,8 +235,8 @@ select{
 
 .threeD__img__wrapper img{
     max-height: 500px;
-    margin: 0 auto;
-    border: 1px solid firebrick;
+    margin: auto;
+    /* border: 1px solid firebrick; */
     border-radius: 10px;
 }
 
