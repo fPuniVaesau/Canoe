@@ -237,7 +237,8 @@ select{
 .threeD__img__wrapper img{
     max-height: 500px;
     margin: 0 auto;
-    /* border: 1px solid orange; */
+    border: 1px solid firebrick;
+    border-radius: 10px;
 }
 
 /* Wins and losses section */
